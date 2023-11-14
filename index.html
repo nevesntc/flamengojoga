@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Dia de Jogo do Flamengo</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="transition-overlay"></div>
+    <main>
+        <div class="background" id="inicio">
+            <header>
+                <ul>
+                    <li>
+                        <a href="#inicio">Início</a>
+                        <a href="#jogo">Próximo Jogo</a>
+                        <a href="#novidades">Novidades</a>
+                    </li>
+                </ul>
+            </header>
+            <div class="clock">
+                <p id="data-jogo"></p>
+                <p id="adversario-jogo"></p>
+                <p id="local-jogo"></p>
+            </div>
+        </div>
+        <div class="news" id="novidades">
+            <h1>Últimas Notícias</h1>
+            <div class="twitter-embed">
+                <a class="twitter-timeline" href="https://twitter.com/Flamengo?ref_src=twsrc%5Etfw">Tweets by Flamengo</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="linkedin-link">Copyright @ Bruno Neves</p>
+    </footer>
+</body>
+</html>
